@@ -1,0 +1,152 @@
+https://medium.com/rate-engineering/using-docker-containers-as-development-machines-4de8199fc662
+https://medium.com/@deepakshakya/beginners-guide-to-use-docker-build-run-push-and-pull-4a132c094d75
+https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+https://devblogs.microsoft.com/cppblog/c-development-with-docker-containers-in-visual-studio-code/
+https://amytabb.com/ts/2018_07_28/
+https://medium.com/@mfcollins3/shipping-c-programs-in-docker-1d79568f6f52
+https://hashedin.com/blog/step-by-step-docker-tutorial-for-beginners/
+https://www.guru99.com/docker-tutorial.html
+https://docker-curriculum.com/
+
+
+after running
+docker-compose up
+
+if we get any error
+then on agian running docker-compose up will not build the container again
+
+need to run docker-compose up --build
+
+
+you can pass variable in docker-compose.yaml file
+using ${var-name} syntax
+
+but this variable either should be exported or must be defined in .env file in same directory as 
+docker-compose.yaml
+
+variable defined in only same shell like
+punet$name=puneet
+
+be read
+
+To start a particular service defined in your docker-compose file. for example if your have a docker-compose.yml
+
+sudo docker-compose up fluent 
+
+ docker-compose --verbose --log-level DEBUG up --no-start Fluent
+how to download from azure storage blob on linux
+
+wget -O azcopy.tar.gz https://aka.ms/downloadazcopylinux64
+tar -xf azcopy.tar.gz
+./azcopy/azcopy --source https://westlakedevint.blob.core.windows.net/certauthorities --destination ./pun.txt --recursive
+
+./azcopy/azcopy --source https://westlakedevint.blob.core.windows.net/certs/proxyclientauthcert.crt --destination ./punproxy
+./azcopy/azcopy --source https://westlakeprod.blob.core.windows.net/certauthorities --destination ./pun.txt --recursive
+https://westlakeprod.blob.core.windows.net/certauthorities
+
+echo "set $pun to \$wss \"hell"\" > echotoFile.txt
+
+it will write  set saini to $wss "hell" to file echotoFile.txt if value of $pun == saini
+
+
+
+openssl x509 -in punprod.txt/Microsoft\ IT\ TLS\ CA\ 4.cer -inform der -out mypun1.txt
+
+
+vreturn=$(echo | openssl x509 -in punprod.txt/DigiCert\ Baltimore\ Root.cer -inform der 2>/dev/null | awk -F\: '$1 ~ "Verify return code"{print $2}')
+
+
+=======================================================================================================================================================
+Merge Key Language-Independent Type for YAML
+
+It is possible to re-use configuration fragments using extension fields. Those special fields can be of any format as long as they are located at the root of your Compose file and their name start with the x- character sequence.
+Regexp:
+
+<<
+
+Definition:
+
+Specify one or more mappings to be merged with the current one.
+
+The “<<” merge key is used to indicate that all the keys of one or more specified maps should be inserted into the current map. If the value associated
+with the key is a single mapping node, each of its key/value pairs is inserted into the current mapping, unless the key already exists in it. If the value
+associated with the merge key is a sequence, then this sequence is expected to contain mapping nodes and each of these nodes is merged in turn according
+to its order in the sequence. Keys in mapping nodes earlier in the sequence override keys specified in later mapping nodes.
+
+---
+- &CENTER { x: 1, y: 2 }
+- &LEFT { x: 0, y: 2 }
+- &BIG { r: 10 }
+- &SMALL { r: 1 }
+
+# All the following maps are equal:
+
+- # Explicit keys
+  x: 1
+  y: 2
+  r: 10
+  label: center/big
+
+- # Merge one map
+  << : *CENTER
+  r: 10
+  label: center/big
+
+- # Merge multiple maps
+  << : [ *CENTER, *BIG ]
+  label: center/big
+
+- # Override
+  << : [ *BIG, *LEFT, *SMALL ]
+  x: 1
+  label: center/big
+  
+  
+  
+  
+ example of docker-compose.yaml file
+ version: '3.4'
+x-volumes:
+  &default-volume
+  driver: foobar-storage
+
+services:
+  web:
+    image: myapp/web:latest
+    volumes: ["vol1", "vol2", "vol3"]
+volumes:
+  vol1: *default-volume
+  vol2:
+    << : *default-volume
+    name: volume02
+  vol3:
+    << : *default-volume
+    driver: default
+    name: volume-local
+	
+	
+===============================================================================
+The contents of those fields are ignored by Compose, but they can be inserted in your resource definitions using YAML anchors. For example, if you want several of your services to use the same logging configuration:
+
+logging:
+  options:
+    max-size: '12m'
+    max-file: '5'
+  driver: json-file
+You may write your Compose file as follows:
+
+version: '3.4'
+x-logging:
+  &default-logging
+  options:
+    max-size: '12m'
+    max-file: '5'
+  driver: json-file
+
+services:
+  web:
+    image: myapp/web:latest
+    logging: *default-logging
+  db:
+    image: mysql:latest
+    logging: *default-logging

@@ -1,0 +1,434 @@
+    1  ls
+    2  init.sh
+    3  ./init.sh
+    4  echo $ROOT
+    5  ls -l init
+    6  ls -l init.sh
+    7  run init.sh
+    8  ./init.sh
+    9  echo $ROOT
+   10  pwd
+   11  $ROOT=/mnt/c/Users/pusaini/code/blockchain
+   12  $ROOT="/mnt/c/Users/pusaini/code/blockchain"
+   13  export ROOT=$(pwd)
+   14  echo $ROOT
+   15  ls
+   16  cd local/
+   17  ls
+   18  ./pack.sh 
+   19  ./buildpushProxy.sh westlakedevintpusaini.azurecr.io 666666
+   20  systemctl is-active docker
+   21  docker info
+   22  echo $DOCKER_HOST
+   23  ./buildpushProxy.sh westlakedevintpusaini.azurecr.io 666666
+   24  tar -xvf C:\Users\pusaini\Downloads\19.0464.7z
+   25  ssh dev@23.96.59.235 
+   26  grep -ri "ResourceProvider_ResourceHostingResourceGroupNameForAzureKeyVault" ./
+   27  find /dir/to/search -name "Westlake.ResourceProvider.ResourceProviderApp.Parameters.json" -print
+   28  find ./ -name "Westlake.ResourceProvider.ResourceProviderApp.Parameters.json" -print
+   29  pwd
+   30  ls
+   31  cd /mnt/c/
+   32  ls
+   33  cd Users/
+   34  ls
+   35  cd pusaini/code/blockchain/
+   36  ls
+   37  history
+   38  docker login westlakedevintpusaini.azurecr.io
+   39  ls
+   40  ./init.sh
+   41  echo $ROOT
+   42  export ROOT=$(pwd)
+   43  echo $ROOT
+   44  ./pack.sh
+   45  pack.sh
+   46  cd pack
+   47  cd local
+   48  ls
+   49  pack.sh
+   50  ./pack.sh
+   51  ls
+   52  history
+   53  ls
+   54  buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+   55  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+   56  docker info
+   57  echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
+   58  docker info
+   59  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+   60  docker login westlakedevintpusaini.azurecr.io
+   61  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+   62  ls
+   63  ./buildpushProxy.sh westlakedevintpusaini.azurecr.io latest
+   64  ls
+   65  ./buildpushParity.sh westlakedevintpusaini.azurecr.io latest
+   66  ls 
+   67  ./buildpushIA.sh westlakedevintpusaini.azurecr.io latest
+   68  ls
+   69  ./buildpushFluentd.sh westlakedevintpusaini.azurecr.io latest
+   70  ls
+   71  ./buildpushCorda.sh westlakedevintpusaini.azurecr.io latest
+   72  ls
+   73  ./pack.sh
+   74  ls
+   75  ./buildpushQuorum.sh  westlakedevintpusaini.azurecr.io latest
+   76  ./buildpushProxy.sh westlakedevintpusaini.azurecr.io latest
+   77  ./buildpushParity.sh westlakedevintpusaini.azurecr.io latest
+   78  ./buildpushIA.sh westlakedevintpusaini.azurecr.io latest
+   79  ./buildpushFluentd.sh westlakedevintpusaini.azurecr.io latest
+   80  ./buildpushCorda.sh westlakedevintpusaini.azurecr.io latest
+   81  pwd
+   82  cd /mnt
+   83  ls
+   84  cd c
+   85  ls
+   86  cd Users/
+   87  ls
+   88  cd pusaini
+   89  cd code/blockchain/
+   90  LS
+   91  ls
+   92  export ROOT=$(pwd)
+   93  echo $ROOT
+   94  cd local/
+   95  ./pack.sh
+   96  ls
+   97  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+   98  cd co
+   99  pwd
+  100  cd code
+  101  ls
+  102  cd /mnt/c
+  103  ls
+  104  cd Users/pusaini/code
+  105  cd blockchain/
+  106  ls
+  107  export ROOT=$(pwd)
+  108  echo $ROOT
+  109  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+  110  cd local/
+  111  ./buildpushQuorum.sh westlakedevintpusaini.azurecr.io latest
+  112  ./buildpushProxy.sh westlakedevintpusaini.azurecr.io latest
+  113  export ROOT=$(pwd)
+  114  echo $ROOT
+  115  cd /mnt/c/Users/pusaini/code/blockchain/
+  116  echo $ROOT
+  117  export ROOT=$(pwd)
+  118  echo $ROOT
+  119  cd local/
+  120  ./pack.sh 
+  121  ls
+  122  ./buildpushQuorum.sh westlakedevintpuneet.azurecr.io latest
+  123  docker login westlakedevintpuneet.azurecr.io
+  124  ./buildpushQuorum.sh westlakedevintpuneet.azurecr.io latest
+  125  ls
+  126  ./buildpushProxy.sh westlakedevintpuneet.azurecr.io latest
+  127  ls
+  128  ./buildpushParity.sh westlakedevintpuneet.azurecr.io latest
+  129  ls
+  130  ./buildpushIA.sh westlakedevintpuneet.azurecr.io latest
+  131  ls
+  132  ./buildpushFluentd.sh westlakedevintpuneet.azurecr.io latest
+  133  ./buildpushCorda.sh westlakedevintpuneet.azurecr.io latest
+  134  ls
+  135  pwd
+  136  cd /mnt/c/Users/pusaini/code/blockchain/
+  137  ls
+  138  vim init.sh 
+  139  export ROOT=$(pwd)
+  140  echo $ROOT
+  141  ls
+  142  cd local/
+  143  ls
+  144  ./pack.sh 
+  145  ls
+  146  docker login westlakepusaini.azurecr.io
+  147  vim /home/pusaini/.docker/config.json
+  148  ./buildpushQuorum.sh westlakepusaini.azurecr.io latest
+  149  ./buildpushProxy.sh westlakepusaini.azurecr.io latest
+  150  ./buildpushParity.sh westlakepusaini.azurecr.io latest
+  151  ./buildpushIA.sh westlakepusaini.azurecr.io latest
+  152  ./buildpushFluentd.sh westlakepusaini.azurecr.io latest
+  153  ./buildpushCorda.sh westlakepusaini.azurecr.io latest
+  154  dpkg -l firefox
+  155  apt install dpkg
+  156  sudo apt install dpkg
+  157  dpkg -l firefox
+  158  dpkg -l ls
+  159  dpkg -l awk
+  160  dpkg -l systemd
+  161  uname -a
+  162  lsb_release -a
+  163  dpkg -l systemd
+  164  suod apt update
+  165  su oapt update
+  166  apt update
+  167  sudo apt update
+  168  sudo apt upgrade
+  169  dpkg -l systemd
+  170  sudo apt install --only-upgrade systemd
+  171  dpkg -l apache2-bin
+  172  dpkg -l procs
+  173  dpkg -l procsys
+  174  sudo apt install --only-upgrade procps
+  175  dpkg -l libdns-export
+  176  dpkg -l wget
+  177  sudo apt install --only-upgrade wget
+  178  sudo apt install --only-upgrade wget --version 1.17.1-1ubuntu1.6
+  179  sudo apt upgrade --fix-missing
+  180  pwd
+  181  cd /mnt/c/Users/pusaini/code/blockchain/
+  182  echo $ROOT
+  183  sudo apt update && sudo apt upgrade && restart
+  184  yes |sudo apt update && sudo apt upgrade && restart
+  185  yes
+  186  ls /var/lib/apt/lists/
+  187  cd /var/lib/apt/lists/
+  188  ls
+  189  ls|grep -i azurecore
+  190  ls ../
+  191  docker image ls
+  192  docker run -it busybox
+  193  docker ps
+  194  docker run -it ubuntu
+  195  docker run -it ubuntu:16.04
+  196  docker ps
+  197  dpkg -l azsec-monitor
+  198  cd /var/lib/apt/lists/
+  199  ls
+  200  docker image ls
+  201  docker run -it ubuntu:16.04
+  202  docker image ls
+  203  docker run -it hello
+  204  docker run -it hello /bin/bash
+  205  apt-get install -y supervisor unattended-upgrades
+  206  sudo apt-get install -y supervisor unattended-upgrades
+  207  ls /etc/apt/apt.conf.d/20auto-upgrades
+  208  ls -la /etc/apt/apt.conf.d/20auto-upgrades
+  209  vim /etc/apt/apt.conf.d/20auto-upgrades
+  210  ls -la /etc/apt/apt.conf.d/
+  211  vim /etc/apt/apt.conf.d/50unattended-upgrades 
+  212  ls -la /etc/cron.daily/apt
+  213  ls -la /etc/cron.daily/apt-compat 
+  214  vim /etc/cron.daily/apt-compat
+  215  vim /etc/apt/apt.conf.d/50unattended-upgrades 
+  216  pbcopy < /etc/apt/apt.conf.d/50unattended-upgrades
+  217  screen -X readbuf /etc/apt/apt.conf.d/50unattended-upgrades
+  218  xclip
+  219  sudo apt install xclip
+  220  xclip -sel c < /etc/apt/apt.conf.d/50unattended-upgrades
+  221  vim /etc/apt/apt.conf.d/50unattended-upgrades 
+  222  ls -la /etc/apt/apt.conf.d/
+  223  docker image ls
+  224  docker
+  225  docker image
+  226  docker image ls
+  227  pwd
+  228  cd /mnt/c/Users/pusaini/code/blockchain/
+  229  ls
+  230  cd local/
+  231  docker image ls
+  232  cd ../../../../
+  233  docker image ls
+  234  docker run -it busybox
+  235  docker image ls
+  236  docker run -it ubuntu:16.04
+  237  docker run -d  ubuntu:16.04 /bin/true
+  238  docker export 643b | docker import - ubuntu:16.04
+  239  docker run -it ubuntu:16.04
+  240  ls /var/lib/apt/lists/
+  241  wget
+  242  ls /var/lib/apt/lists/|grep -i wget
+  243  vim /etc/apt/apt.conf.d/50unattended-upgrades 
+  244  ls -la /var/lib/apt/periodic/upgrade-stamp
+  245  ls -la /var/lib/apt/periodic/
+  246  ls -la /var/lib/apt/periodic/update-success-stamp 
+  247  vim /var/lib/apt/periodic/update-success-stamp 
+  248  ls
+  249  cd pusaini/
+  250  cd Documents/
+  251  cd SecureBaeImage/
+  252  ls
+  253  docker build -t securebaseimagepacker
+  254  docker build ./ -t securebaseimagepacker
+  255  ls
+  256  grep -ir "Invoke-BashOnVM" ./
+  257  grep -r "Get-AzureVMFromMemberNode" ./
+  258  cd /mnt/c/Users/pusaini/
+  259  ./Callscript.sh 
+  260  ./Callscript.sh -p
+  261  ./Callscript.sh -d
+  262  ./Callscript.sh "-d"
+  263  ./Callscript.sh d
+  264  ./Callscript.sh -c
+  265  ./Callscript.sh -p
+  266  vim Callscript.sh 
+  267  ./Callscript.sh -p
+  268  vim Callscript.sh 
+  269  vim Callscript.sh -c
+  270  ./Callscript.sh -c
+  271  ./Callscript.sh -d
+  272  ./Callscript.sh
+  273  ./Callscript.sh -p
+  274  curl
+  275  dpkg -s wget
+  276  sudo apt install wget
+  277  dpkg -s systemd
+  278  sudo apt install systemd
+  279  ls /etc
+  280  dpkg -s fonts
+  281  dpkg -s gss
+  282  dpkg -s groff
+  283  dpkg -s tree
+  284  dpkg -s pm
+  285  dpkg -s ppp
+  286  dpkg -s perl
+  287  sudo apt install perl
+  288  dpkg -s ldap
+  289  ls /etc
+  290  dpkg -s newt
+  291  dpkg -s lvm
+  292  dpkg -s sgml
+  293  dpkg -s xml
+  294  dpkg -s ssh
+  295  dpkg -s dbus
+  296  sudo apt install dbus
+  297  exit
+  298  jq
+  299  sudo apt install jq
+  300  jq
+  301  systemctl
+  302  systemctl show -p ActiveState jq
+  303  systemctl show -p ActiveState wget
+  304  cd /mnt/c/Users/pusaini/code/blockchain/
+  305  ls
+  306  cd src/Deployment/NodeUpgrade/
+  307  grep -ri "Initialize-UpgradeContext" ./
+  308  grep -ri "PSScriptRoot" ./
+  309  grep -ri "UpgradeSingleNode" ./
+  310  grep -ri "UpgradeOneNode" ./
+  311  grep -ri "Update-EnvironmentsAndScripts" ./
+  312  grep -ri "Select-WestlakeNode" ./
+  313  docker-compose
+  314  docker image ps
+  315  docker image ls
+  316  docker restart
+  317  docker restart --help
+  318  ls /etc/sysctl.conf
+  319  ls -la /etc/sysctl.conf
+  320  vim /etc/sysctl.conf
+  321  docker image ls
+  322  hisory
+  323  history
+  324  docker run -it hello
+  325  docker run -it busybox
+  326  docker run -it hello
+  327  docker image ls
+  328  docker run -it ubuntu
+  329  docker run -it ubuntu:16.04
+  330  echo "$ENV_VAR"
+  331  docker run -it ubuntu:16.04
+  332  docker run -it gcc:4.9
+  333  docker ps
+  334  docker create -e MEMBER_NAME="memeber" gcc:4.9
+  335  docker ps
+  336  docker image ps
+  337  docker image ls
+  338  docker create -e MEMBER_NAME="memeber" gcc:4.9 --name puneetimage
+  339  docker image ls
+  340  docker ps
+  341  docker container ls
+  342  docker ps -a
+  343  docker ps -s
+  344  docker ps -aq
+  345  docker rm $(docker ps -aq)
+  346  docker ps -aq
+  347  docker create --name puneetcon -e MEMBER_NAME="memeber" gcc:4.9
+  348  docker ps -aq
+  349  docker ps -a
+  350  docker run -it puneetcon
+  351  docker run -it puneetcon:4.9
+  352  docker start puneetcon
+  353  docker ps
+  354  docker ps -a
+  355  docker start -i puneetcon
+  356  docker ps -a
+  357  docker ps
+  358  docker start -it puneetcon
+  359  docker image ls
+  360  docker create --name puneetquorum -e HELLO=puneet
+  361  docker create --name puneetquorum -e HELLO=puneet westlakedevintpuneet.azurecr.io/quorum
+  362  docker ps -a
+  363  docker start -i puneetquorum
+  364  docker run -it westlakepusaini.azurecr.io/quorum
+  365  docker run -it westlakedevintpuneet.azurecr.io/fluentd
+  366  docker ps
+  367  docker ps -a
+  368  docker rm cdeb42a3c85e 
+  369  docker rm 493e2e20de12
+  370  docker ps -a
+  371  docker rm 93ddbd1abb3b 
+  372  docker ps -a
+  373  docker image ls
+  374  docker rmi westlakepusaini.azurecr.io/ia westlakepusaini.azurecr.io/ia
+  375  docker image ls
+  376  docker rmi westlakepusaini.azurecr.io/* westlakepusaini.azurecr.io/*
+  377  docker rmi westlakedevintpuneet.azurecr.io/ia westlakedevintpuneet.azurecr.io/ia
+  378  docker image ls
+  379  docker create --name puneettest westlakedevintpuneet.azurecr.io/ia
+  380  ls
+  381  docker image ls
+  382  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  383  ls -la /usr/local/bin/docker-compose
+  384  sudo chmod +x /usr/local/bin/docker-compose
+  385  docker-compose --version
+  386  cd ../../../../
+  387  cd ../
+  388  cd Documents\Learning\Docker
+  389  cd \Documents\Learning\Docker
+  390  cd Documents/Learning/Docker/
+  391  mkdor dockerApps
+  392  mkdir dockerApps
+  393  cd dockerApps/
+  394  ls
+  395  ls -la /etc/datadog-agent/
+  396  cd ../../../../
+  397  ls
+  398  cd -
+  399  ls
+  400  cd HelloPython/
+  401  ls
+  402  docker-compose up
+  403* docker-compose up --build
+  404  docker-compose up
+  405  docker ps
+  406  docker image ls
+  407  docker-compose up -t 300
+  408  docker-compose up -t 3000
+  409  docker-compose up -t 30000
+  410  docker ps -a
+  411  docker rmi hellopython_test hellopython_test
+  412  docker image ls
+  413  docker ps -a
+  414  docker rm hellopython_test
+  415  docker rm 6a678c8ccc59
+  416  docker ps -a
+  417  docker rmi hellopython_test hellopython_test
+  418  docker image ls
+  419  docker ps -a
+  420  docker exec -it puneetcon
+  421  docker exec -it puneetcon /bin/bash
+  422  docker run -it -d puneetcon /bin/bash
+  423  docker run -it -d puneettest /bin/bash
+  424  docker start puneettest
+  425  docker ps -a
+  426  docker exec -it puneettest /bin/bash
+  427  docker start 7f7ac8ab95f4
+  428  docker ps -a
+  429  docker ps
+  430  history
+  431  docker ps -a
+  432  docker rm eb9f9175c07b
+  433  docker ps -a
+  434  history > history.txt

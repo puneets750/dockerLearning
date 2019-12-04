@@ -1,0 +1,8 @@
+version: "2"
+services:
+  test:
+    build: .
+    environment:
+        - BLOCKCHAIN_CLIENT:puneet
+        - HOST_MOUNT_DIR:mount
+        - IA_DATA_DIR:saini

@@ -1,0 +1,2 @@
+if you get the terminal of docker and does some apt-get install. this installed command will be lost on rstart of docker
+You need to commit to make it permanenet
