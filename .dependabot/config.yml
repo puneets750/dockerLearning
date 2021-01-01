@@ -1,5 +1,5 @@
 version: 1
 update_configs:
   - package_manager: "docker"
-    directory: "/"
+    directory: "./Docker/dockerApps/HelloPython/"
     update_schedule: "daily"
